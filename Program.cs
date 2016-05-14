@@ -58,18 +58,4 @@ namespace numeros_amigos
 }
 
 
-//int i = 1;
 
-//while (true)
-//{
-//    a = Convert.ToInt32(Console.ReadLine());
-//    if (a % i ==0 )
-//    {
-
-//        Console.WriteLine(i);
-//        sum1 += i;
-//        i++;
-//    }
-
-//}
-//Console.ReadKey();
