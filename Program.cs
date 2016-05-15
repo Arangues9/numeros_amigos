@@ -68,45 +68,40 @@ namespace numeros_amigos_v2
 
 //        static void Main(string[] args)
 //        {
-//            int n1;
-//            int n2;
-//            int cont = 1;
-//            int a = 0;
-//            int b = 0;
+//            int a;
+//            int b;
+//            int n1 = 0;
+//            int n2 = 0;
+
 //            Console.WriteLine("ingrese el primer numero ");
-//            n1 = Convert.ToInt32(Console.ReadLine());
-//            while (cont < n1)
-//            {
-                
-//                if (n1 % cont == 0)
-//                {
-//                    Console.WriteLine(cont);
-//                    a += cont;
-//                }
-//                cont++;
-//            }
-//            Console.WriteLine("la suma es : " + a);
-//            Console.WriteLine();
-
-//            Console.WriteLine("ingrese el segundo numero");
-//            n2 = Convert.ToInt32(Console.ReadLine());
-//            cont = 1;
-//            while (cont < n2)
+//            a = Convert.ToInt32(Console.ReadLine());
+//            for (int i = 1; i < a; i++)
 //            {
 
-//                if (n2 % cont == 0)
+//                if (a % i == 0 )
 //                {
-//                    Console.WriteLine(cont);
-//                   b += cont;
+//                    Console.WriteLine(i);
+//                    n1 += i;
+
+
 //                }
-//                cont++;
 //            }
-//            Console.WriteLine("la suma es : " + b);
+//            Console.WriteLine("la suma es : " + n1);
 //            Console.WriteLine();
+//            Console.WriteLine("ingrese el segundo numero ");
+//            b = Convert.ToInt32(Console.ReadLine());
+//            for (int i = 1; i < b; i++)
+//            {
 
+//                if (b % i == 0)
+//                {
+//                    Console.WriteLine(i);
+//                    n2 += i;
 
-
-//            if (n1 == b && n2 == a) 
+//                }
+//            }
+//            Console.WriteLine("la suma es : " + n2);
+//            if (a == n2 && b == n1)
 //            {
 //                Console.WriteLine();
 //                Console.WriteLine("Los numero son amigos");
@@ -115,13 +110,9 @@ namespace numeros_amigos_v2
 //            {
 //                Console.WriteLine("Los numero no son amigos");
 //            }
-
 //            Console.ReadKey();
 //        }
-   
 //    }
-
 //}
-
 
 
